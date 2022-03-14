@@ -1,0 +1,279 @@
+@media only screen and (min-width: 768px) and (max-width: 1450px) {
+    .tablet {
+        display: none !important;
+    }
+    .header-mobil {
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1580px) {
+    .searchhidden {
+        display: none !important;
+    }
+
+}
+@media (min-width: 768px) {
+
+    .col-md-2x {
+        flex: 0 0 auto;
+        width: 19%;
+    }
+    .col-md-3x {
+        flex: 0 0 auto;
+        width: 24%;
+    }
+}
+@media (max-width: 552px) {
+
+    .col-6x {
+        flex: 0 0 auto;
+        width: 48%;
+
+    }
+
+}
+@media (max-width: 420px) {
+
+    .col-6x {
+        flex: 0 0 auto;
+        width: 100%;
+
+    }
+    .first-item {
+
+        padding: 2rem 0 !important;
+        .fist-midle {
+            .input-items {
+                input {
+                    width: 59%;
+                }
+            }
+        }
+    }
+
+    .pro-cart-mobil {
+
+        padding-bottom: 7rem !important;
+        .pro-bottom-mobil {
+
+            position: absolute !important;
+            .pro-clock {
+                .clock-item {
+                    width: 20%;
+                }
+            }
+
+        }
+    }
+    #Abut-First {
+        .abut-first {
+            padding: 0 !important;
+
+        }
+    }
+    #Office {
+        .box {
+            margin-top: 5rem;
+            padding: 0 !important;
+
+        }
+    }
+    #contact-form {
+        padding: 0;
+
+    }
+    #Stay {
+        form {
+            width: 100% !important;
+        }
+        padding-bottom: 1rem;
+        .stay-left {
+            padding: 0 0 10px !important;
+
+            h2 {
+                font-size: 20px !important;
+                margin-top: 20px !important;
+                padding-left: 1rem;
+            }
+            p {
+                padding-left: 1rem;
+            }
+            button {
+
+                margin: 0 !important;
+            }
+
+            input {
+
+                width: 50%;
+                margin: 0 !important;
+
+            }
+        }
+    }
+
+    #Featured {
+        .featured-phone {
+
+            justify-content: center !important;
+
+        }
+    }
+
+    #Ourteam {
+        padding: 0 !important;
+        .ourteam-title {
+
+            .image-top {
+                width: 30% !important;
+            }
+
+        }
+        a {
+            margin-bottom: 1rem;
+        }
+
+        .content-wrapper {
+            margin-bottom: 8rem !important;
+        }
+
+    }
+    #Archive-header {
+        padding: 40px 10px !important;
+    }
+    #Cart {
+        .card-box {
+
+            .cart-main {
+
+                .cart-header {
+
+                    display: none !important;
+                    .cart-header-left {
+                        display: flex !important;
+                        input {
+
+                            margin-right: 1rem !important;
+                        }
+
+                        span {
+                            font-size: 16px !important;
+                        }
+                    }
+
+                    .cart-header-right {
+                        display: flex !important;
+                        .cart-header-right-text {
+                            background-color: #ececec;
+                            padding: 0;
+                            font-family: "Quicksand", sans-serif;
+                            font-size: 12px !important;
+                            font-weight: 700;
+                            color: #253D4E;
+                            margin-left: 0 !important;
+                            transform: rotate(50deg);
+                        }
+                    }
+
+                }
+                .cart-body {
+                    display: block !important;
+
+                    .cart-body-left {
+                        width: 100% !important;
+
+                        display: block !important;
+                        text-align: center;
+                        input {
+                            display: none;
+                            margin-right: 1rem;
+                        }
+                        .pro-image {
+                            max-width: 100% !important;
+                        }
+                        .pro-detail {
+                            margin-left: 0 !important;
+                            margin-top: 1rem;
+                        }
+
+                    }
+                    .cart-body-right {
+                        width: 100% !important;
+                        display: block !important;
+                        text-align: center;
+                        .pro-price {
+                            margin-bottom: 1rem !important;
+                            display: flex;
+                            justify-content: center;
+                            h4 {
+                                margin: auto;
+                                transform: translateX(-50%);
+
+                            }
+                            h6 {
+                                margin-right: auto;
+                            }
+                        }
+                        .pro-quantity {
+                            margin-bottom: 1rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            h6 {
+                                margin-right: auto;
+                            }
+                            input {
+                                margin: auto;
+                                transform: translateX(-25%);
+
+                            }
+
+                        }
+                        .pro-subtotal {
+                            margin-bottom: 1rem !important;
+                            display: flex;
+                            justify-content: center;
+                            h4 {
+                                margin: auto;
+                                transform: translateX(-60%);
+
+                            }
+                            h6 {
+                                margin-right: auto;
+
+                            }
+                        }
+                        .pro-remove {
+                            margin-bottom: 1rem !important;
+                            display: flex;
+                            justify-content: right;
+
+                            button {
+                                i {
+                                    font-size: 2rem !important;
+
+                                }
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+        }
+        .products-subtotal{
+            width: 92% !important;
+            margin-top: 1rem !important;
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+            .estimate-for
+            {
+                h1{
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+
+}

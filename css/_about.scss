@@ -1,0 +1,290 @@
+#Welcome {
+    .col-md-6 {
+        img {
+            width: 100%;
+
+            margin-right: 10px;
+        }
+
+    }
+
+    .about-left {
+        img {
+            width: 95%;
+            border-radius: 20px;
+        }
+    }
+
+    .about-right {
+        padding: 30px;
+        margin-top: 70px;
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+            color: #253D4E;
+            font-weight: 600;
+            line-height: 1.2;
+            font-size: 40px;
+        }
+
+        p {
+            color: #7E7E7E;
+            font-size: 16px;
+        }
+
+        .slick-prev:before {
+            color: #3BB77E;
+            font-size: 24px;
+
+            border-radius: 50%;
+        }
+        .slick-arrow::before {
+            color: #3BB77E;
+            font-size: 24px;
+
+            border-radius: 50%;
+        }
+    }
+}
+#Provide {
+    text-align: center;
+
+    h2 {
+
+        color: #253D4E;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 40px;
+        margin-top: 5rem;
+    }
+
+    img {
+        will-change: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .featured-card-box {
+        border: 1px solid #ececec;
+        text-align: center;
+        padding: 65px 30px 40px;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            box-shadow: 5px 5px 15px #efeff3;
+
+        }
+
+        img {
+            height: 105px;
+        }
+
+        a {
+            color: #3BB77E;
+            padding-top: 70px;
+            transition: 0.3s;
+
+            &:hover {
+                color: #FDC040;
+            }
+        }
+
+        p {
+            color: #7E7E7E;
+            padding-top: 15px;
+            font-size: 17px;
+        }
+
+        h4 {
+            padding-top: 35px;
+            font-size: 24px;
+            color: #253D4E;
+            font-weight: 700;
+
+            font-family: "Lato", sans-serif;
+            font-family: "Open Sans", sans-serif;
+
+        }
+    }
+}
+#Performance {
+    padding-bottom: 2rem;
+    .performance-left {
+        padding: 30px 40px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .performance-right {
+        padding-top: 80px;
+
+        h4 {
+            color: #B6B6B6 !important;
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 32px;
+
+            color: #253D4E;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        h1 {
+
+            color: #253D4E;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        p {
+            padding-top: 25px;
+            color: #7E7E7E;
+        }
+    }
+}
+#Counter {
+    background-image: url("http://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-9.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 7rem 0;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 2rem;
+
+    
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: #4B675A;
+        opacity: 0.8;
+        border-radius: 15px;
+    }
+
+    h1 {
+        span {
+            font-size: 72px;
+        }
+
+        font-size: 72px;
+        font-weight: 700;
+    }
+
+    .counter-box {
+        width: 20%;
+        text-align: center;
+        color: white;
+    }
+}
+#Ourteam {
+    padding: 9rem;
+    position: relative;
+
+    .content-wrapper {
+        position: relative;
+
+        &:hover .ourteam-card-bottom {
+            transform: translateY(-10px);
+        }
+    }
+
+    .ourteam-title {
+        text-align: center;
+        h2 {
+            font-family: "Quicksand", sans-serif;
+            color: #253D4E;
+            font-weight: 700;
+            line-height: 1.2;
+            font-size: 40px;
+            margin-top: 55px;
+            
+
+        }
+        .image-top {
+            width: 15%;
+            margin-bottom: 40px;
+            
+
+        }
+    }
+    .ourteam-card-bottom {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        position: absolute;
+        border-radius: 15px;
+        text-align: center;
+        bottom: -18%;
+        left: 10%;
+        height: 35%;
+        box-shadow: 0 8px 16px 0 rgba(211, 207, 207, 0.2);
+        padding: 20px;
+        transition: 0.3s;
+
+        i {
+            color: #3BB77E;
+            padding-left: 10px;
+            padding-top: 20px;
+            cursor: pointer;
+        }
+
+        span {
+            color: #7E7E7E;
+        }
+    }
+
+    h6 {
+        color: #3BB77E !important;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-family: "Quicksand", sans-serif;
+        color: #253D4E;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    .col-md-4:first-child {
+        text-align: left;
+    }
+
+    p {
+        color: #7E7E7E;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 4px;
+        padding: 10px 20px;
+        color: #fff;
+        border: 1px solid transparent;
+        background-color: #3BB77E;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 20px;
+        font-family: "Quicksand", sans-serif;
+        letter-spacing: 0.5px;
+    }
+}
